@@ -34,16 +34,16 @@ def index(request):
         11: 'получает удар (hit)',
         12: 'прыгает (jump)',
         13: 'что-то поднимает (pick)',
-        14: 'pour',
-        15: 'pullup',
-        16: 'push',
-        17: 'pushup',
-        18: 'shoot_ball',
-        19: 'sit',
-        20: 'situp',
-        21: 'swing_baseball',
-        22: 'sword_exercise',
-        23: 'throw'
+        14: 'наливает (pour)',
+        15: 'подтягивается (pullup)',
+        16: 'толкает (push)',
+        17: 'отжимается (pushup)',
+        18: 'бросает мяч (shoot_ball)',
+        19: 'садится (sit)',
+        20: 'качает пресс (situp)',
+        21: 'отбивает мяч (swing_baseball)',
+        22: 'тренируется с мечом (sword_exercise)',
+        23: 'бросает (throw)'
     }
 
     if request.method == 'POST':
