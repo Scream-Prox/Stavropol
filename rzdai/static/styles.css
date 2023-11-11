@@ -1,0 +1,210 @@
+/* .slide-in-left {
+    animation: slideLeft 0.6s forwards;
+}
+
+.slide-in-right {
+    animation: slideRight 0.6s forwards;
+}
+
+@keyframes slideLeft {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideRight {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+} */
+
+.container {
+    margin: 0px 26px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+
+#most-common-label p {
+    padding: 30px;
+    text-align: center;
+    font-weight: 700;
+
+  }
+
+#most-common-label h3 {
+    padding: 30px;
+    text-align: center;
+    font-weight: 600;
+  }
+body {
+    margin: 0px;
+}
+
+video {
+    display: none;
+    width: 70%;
+    max-width: 100%;
+    height: 70%;
+    max-height: 70vh;
+    text-align: center;
+}
+
+
+.video-container {
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+    text-align: center;
+}
+
+#upload-button {
+    display: block;
+}
+
+.header {
+    background-image: url('images/bg.png');;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.header-line {
+    padding-top: -10px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    justify-content: center;
+
+}
+
+.header-logo {
+    flex-shrink: 0;
+}
+
+
+
+.nav-item {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-right: 35px;
+    transition: color 0.3s linear;
+    
+}
+
+.nav-item:hover{
+    color: #C729B4;
+}
+
+.nav {
+    padding-top: 30px;
+    padding-right: 10px;
+    height: 50px;
+}
+
+.num {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.3s linear;
+}
+
+
+
+.header-down {
+    position: relative;
+}
+
+form{
+    padding-top: 80px;
+    text-align: center;
+}
+
+
+@media (max-width: 450px) {
+    .header {
+        background-image: url('images/bg_phone.jpg');;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    
+}
+
+@media (max-width: 450px) {
+    .header-line {
+        padding-top: 30px;
+        display: flex;
+        align-items: fl;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        justify-content: space-around;
+    }
+    
+} 
+
+
+.btn.btn-primary {
+    /* Ширина блока */
+    width: 200px;
+    height: 52px;
+    /* Внутренние отступы */
+    padding:0px;
+    /* Цвет фона в элементе */
+    background-color: #E5322D;
+    /* Сделаем видимую границу элементу */
+    border: 1px solid #333;
+    border-radius: 20px;
+  }
+  
+  .btn.btn-primary:hover {
+    /* Свойство отвечающее за формирование тени 
+     8px - отступ по оси Х
+     10px - отступ по оси Y
+     5px - радиус размытия тения
+     2px - радиус распространения
+     rgba - функция формирующая цвет тени
+    */
+    box-shadow: 8px 10px 5px 2px rgba(229,50,45, .2);
+  }
+
+  p {
+    font-size: 120px;
+    font-weight: 600;
+    color: #fdfdfe;
+    text-shadow: 0px 0px 5px #E5322D, 0px 0px 10px #E5322D, 0px 0px 10px #E5322D,
+    0px 0px 20px #E5322D;
+  }
+  
+
+.VideoUploadForm input {
+    /* Добавьте ваш стиль кнопки здесь */
+    background-color: #E5322D; /* Замените этот цвет на желаемый */
+    color: white; /* Замените этот цвет на желаемый цвет текста */
+    padding: 10px 20px; /* Можете настроить отступы и размеры по вашему усмотрению */
+    border: none;
+    border-radius: 20px;
+}
+
+/* Цвет текста метки формы */
+#upload-form label {
+    /* Добавьте ваш цвет текста метки здесь */
+    color: #ffffff; /* Замените этот цвет на желаемый */
+    font-size: 16px; /* Можете настроить размер шрифта по вашему усмотрению */
+    font-weight: bold; /* Можете настроить жирность шрифта по вашему усмотрению */
+}
+  
